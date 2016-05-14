@@ -6,7 +6,6 @@
 ## Write a short comment describing this function
 ## makeCacheMatrix uses scoping on the matrix and then stores the result in memory.
 
-
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
@@ -23,6 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## This takes a cached matrix and computes the inverse of its x values.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
